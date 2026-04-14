@@ -96,10 +96,11 @@ section {
     display: flex;
     justify-content: center;
     gap: 2rem;
+    color: #ffffff;
 }
 
 .testimonial {
-    background-color: #eef4ff;
+    background-color: #000000;
     padding: 1rem;
     border-radius: 8px;
     width: 40%;
@@ -108,7 +109,7 @@ section {
 
 .testimonial cite {
     font-style: italic;
-    color: #666;
+    color: #ffffff;
 }
 
 table {
