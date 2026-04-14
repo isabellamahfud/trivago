@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -12,6 +13,10 @@ header {
     color: #ffffff;
     padding: 1rem;
     text-align: center;
+}
+
+header h1 {
+    font-size: 4rem;
 }
 
 nav ul {
@@ -193,4 +198,22 @@ footer {
     .testimonial {
         width: 80%;
     }
+}
+/* Cabeçalho da tabela destacado */
+th {
+    background-color: #0057d8;
+    color: #ffffff;
+}
+
+/* Evita overflow nos inputs */
+* {
+    box-sizing: border-box;
+}
+
+/* Imagem da seção sobre controlada pelo CSS */
+#sobre img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
 }
